@@ -216,44 +216,209 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Machine Learning <br>&<br>Deep Learning
+    items:
+      - name: Tensorflow
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: PyTorch
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Keras
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Scikit-Learn
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: XGBoost
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: ADTK
+        description: 'Anomaly Detection Tool Kit'
+        #percent: 80
+        #icon: code-bracket
+      - name: UMAP
+        description: 'Uniform Manifold Approximation and Projection'
+        #percent: 80
+        #icon: code-bracket
+  - name: Generative AI <br>&<br>AI Agents
+    items:
+      - name: LangChain
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: LangGraph
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Ollama
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Groq
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: OpenAI
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: HuggingFace Transformers
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+  - name: Computer Vision
+    items:
+      - name: OpenCV
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Ultralytics
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: MediaPipe
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: OpenVINO
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: RoboFlow
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+  - name: Data Science <br>&<br>Data Engineering
+    items:
+      - name: NumPy
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Pandas
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Plotly
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: PySpark
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Polars
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+  - name: Continuous Integration/<br>Continuous Delivery
+    items:
+      - name: Git
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: GitHub
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: FastAPI
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: MLflow
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Docker
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+  - name: Data Visualization/<br>Software Development
+    items:
+      - name: Plotly Dash
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Streamlit
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: PyQT6
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+  - name: Automation
+    items:
+      - name: Selenium WebDriver
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: PyAutoGUI
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: BotCity
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Airflow
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Luigi
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+  - name: Cloud
+    items:
+      - name: AWS
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Azure
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+  - name: Databases
+    items:
+      - name: MySQL
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: SQL Server
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+      - name: Postgres
+        description: ''
+        #percent: 80
+        #icon: code-bracket
+  - name: Languages
     items:
       - name: Python
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
+        #percent: 80
+        #icon: code-bracket
+      - name: Bash
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        #percent: 80
+        #icon: code-bracket
+      - name: Go
         description: ''
-        percent: 40
-        icon: circle-stack
-  #- name: Hobbies
-  #  color: '#eeac02'
-  #  color_border: '#f0bf23'
-  #  items:
-  #    - name: Hiking
-  #      description: ''
-  #      percent: 60
-  #      icon: person-simple-walk
-  #    - name: Cats
-  #      description: ''
-  #      percent: 100
-  #      icon: cat
-  #    - name: Photography
-  #      description: ''
-  #      percent: 80
-  #      icon: camera
+        #percent: 80
+        #icon: code-bracket
+
 
 languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
   - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 90
 
 # Awards.
 #   Add/remove as many awards below as you like.
