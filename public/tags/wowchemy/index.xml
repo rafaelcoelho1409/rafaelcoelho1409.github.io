@@ -13,6 +13,16 @@
     </image>
     
     <item>
+      <title>COELHO Finance</title>
+      <link>http://localhost:1313/project/coelhofinance/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/coelhofinance/</guid>
+      <description>&lt;p&gt;COELHO Finance is a powerful platform designed to help users make informed investment decisions,
+track portfolios, and identify opportunities. Developed as a personal project, it leverages Data Science,
+Machine Learning, and AI tools for the financial market.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Pandas</title>
       <link>http://localhost:1313/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
