@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Machine Learning Engineer & Data Scientist
+role: Machine Learning Engineer<br>Data Scientist<br>Mathematician
 
 # Organizations/Affiliations to display in Biography blox
 #organizations:
@@ -48,8 +48,10 @@ profiles:
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Cybersecurity
+  - Quantum Computing
+  - Generative AI
+  - AI Autonomous Agents
 
 education:
   #- area: PhD Artificial Intelligence
@@ -75,7 +77,7 @@ education:
   - area: BSc Mathematics
     institution: Federal University of Paraná (UFPR)
     #date_start: 2016-01-01
-    date_end: 2024
+    date_end: 2024-08-15
     #summary: |
     #  GPA: 3.4/4.0
     #  
@@ -154,7 +156,7 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
+#awards:
 #  - title: Neural Networks and Deep Learning
 #    url: https://www.coursera.org/learn/neural-networks-deep-learning
 #    date: '2023-11-25'
@@ -187,4 +189,4 @@ awards:
 • Bachelor's degree in Mathematics at Federal University of Paraná (UFPR) - Brazil.  
 • Data Scientist and Machine Learning Engineer with over 5 years of experience in the industry.  
 • Highly proficient in Data Science, Machine Learning, Computer Vision and Cybersecurity.  
-• Developing and deploying machine learning models to solve real-world problems, such as predictive models, anomaly detection and other models to be applied in industry areas, such as Finance, Marketing, Commodities, Retail etc.  
+• Developing and deploying machine learning models to solve real-world problems, such as predictive models, automation tasks and other models to be applied in industry areas, such as Logistics, Financial Market, Real Estate etc.  
