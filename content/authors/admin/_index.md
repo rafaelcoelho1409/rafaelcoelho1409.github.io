@@ -316,7 +316,7 @@ skills:
         description: ''
         #percent: 80
         #icon: code-bracket
-  - name: Continuous Integration/<br>Continuous Delivery
+  - name: CI/CD<br>&<br>Software Development
     items:
       - name: Git
         description: ''
@@ -338,8 +338,6 @@ skills:
         description: ''
         #percent: 80
         #icon: code-bracket
-  - name: Data Visualization/<br>Software Development
-    items:
       - name: Plotly Dash
         description: ''
         #percent: 80
