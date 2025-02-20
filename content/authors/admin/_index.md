@@ -92,7 +92,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2023-10-01
-    date_end: ''
+    date_end: 2025-02-14
     summary: |2-
       I worked in personal projects to build a personal work portfolio. My focus was on building Data Science & Artificial Intelligence independent platforms, applying almost everything I learned in the last years by studying hard these areas.
 
@@ -206,12 +206,13 @@ work:
     date_end: 2019-09-01
     summary: |
       Intern in the administrative area at the Dean of Planning, Budget and Finance (PROPLAN), Institutional Relations Coordination (CRI) - (UFPR)
-      
+
       - Organization and production of minutes, memos, letters and internal communications
       - Processing and filing of administrative processes at UFPR
       - Analysis of UFPR's accountability
       - Assistance in serving UFPR servers
       - Update of the internal process data system (SIGEA)
+
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -229,22 +230,22 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+  #- name: Hobbies
+  #  color: '#eeac02'
+  #  color_border: '#f0bf23'
+  #  items:
+  #    - name: Hiking
+  #      description: ''
+  #      percent: 60
+  #      icon: person-simple-walk
+  #    - name: Cats
+  #      description: ''
+  #      percent: 100
+  #      icon: cat
+  #    - name: Photography
+  #      description: ''
+  #      percent: 80
+  #      icon: camera
 
 languages:
   - name: English
@@ -292,3 +293,21 @@ languages:
 • Data Scientist and Machine Learning Engineer with over 5 years of experience in the industry.  
 • Highly proficient in Data Science, Machine Learning, Computer Vision and Cybersecurity.  
 • Developing and deploying machine learning models to solve real-world problems, such as predictive models, automation tasks and other models to be applied in industry areas, such as Logistics, Financial Market, Real Estate etc.  
+
+---  
+**Expertise in Artificial Intelligence & Data Science:** 
+- Machine Learning 
+- Generative AI 
+- Data Science 
+- Data Engineering 
+- Data Analytics 
+- Automation 
+- Anomaly Detection 
+- Computer Vision
+
+---
+**Expertise in Cybersecurity:**
+- Open Source Intelligence (OSINT)
+- Pentesting
+
+---

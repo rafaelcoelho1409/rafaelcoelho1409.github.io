@@ -16,7 +16,7 @@ main:
   #- name: News
   #  url: /#news
   #  weight: 13
-  - name: Tech Skills
+  - name: Experience & Skills
     url: experience/
     weight: 20
   - name: Projects
