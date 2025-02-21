@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: Skills
+summary: Skills
 type: landing
 
 cascade:
