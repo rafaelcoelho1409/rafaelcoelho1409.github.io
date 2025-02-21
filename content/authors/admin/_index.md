@@ -75,7 +75,7 @@ education:
   #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc Mathematics
-    institution: Federal University of Paraná (UFPR)
+    institution: Federal University of Paraná (UFPR) - Brazil
     #date_start: 2016-01-01
     date_end: 2024-08-15
     #summary: |
