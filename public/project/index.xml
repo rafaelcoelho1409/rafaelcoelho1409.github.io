@@ -5,7 +5,7 @@
     <link>http://localhost:1313/project/</link>
       <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Projects</title>
@@ -13,23 +13,91 @@
     </image>
     
     <item>
-      <title>COELHO Finance</title>
-      <link>http://localhost:1313/project/coelhofinance/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/coelhofinance/</guid>
-      <description>&lt;p&gt;COELHO Finance is a powerful platform designed to help users make informed investment decisions,
-track portfolios, and identify opportunities. Developed as a personal project, it leverages Data Science,
-Machine Learning, and AI tools for the financial market.&lt;/p&gt;</description>
+      <title>COELHO Agents</title>
+      <link>http://localhost:1313/project/coelhoagents/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/coelhoagents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COELHO GenAI</title>
+      <link>http://localhost:1313/project/coelhogenai/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/coelhogenai/</guid>
+      <description>&lt;p&gt;COELHO GenAI is a platform that connects the user to open source Large Language Models like Llama 3.1 (Meta), Gemma 2 (Google), Phi 3.5 (Microsoft) and Qwen 2.5 through Ollama, allowing users to have their own Language Model interface with privacy using the following tools:
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Assistant
+Assistant is a simple chatbot that can answer the questions you have in order to solve problems, have new thoughts and ideas, build new ideas and so on.&lt;/li&gt;
+&lt;li&gt;Information Retrieval
+Information Retrieval connects user local LLM to online tools, such as DuckDuckGo, Wikipedia, PubMed etc.&lt;/li&gt;
+&lt;li&gt;Data Science
+Data Science tool allows user to use autonomous AI agents to explore and to make data analysis and data science over data the user supplies to LLM.&lt;/li&gt;
+&lt;li&gt;Prompt Engineering
+Prompt Engineering is a test tool that allows users to use over 4000 ready prompts coming from LangChain Hub for various tasks.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pentesting Automation</title>
+      <link>http://localhost:1313/project/pentestingautomation/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/pentestingautomation/</guid>
+      <description>&lt;p&gt;Link: &lt;a href=&#34;https://github.com/rafaelcoelho1409/PentestingAutomation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/rafaelcoelho1409/PentestingAutomation&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+Pentesting Automation is a complex pentesting automation which scans more than 20 types of web vulnerabilities in an automated way, saving time from manual work, allowing to focus on tasks which manual and careful analysis is necessary.
+&lt;br&gt;&lt;br&gt;
+This automation was built with KALI Linux VM, and several Go, Bash and Python tools.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>COELHO VISION</title>
+      <link>http://localhost:1313/project/coelhovision/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/coelhovision/</guid>
+      <description>&lt;p&gt;Link: &lt;a href=&#34;https://coelhovision.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://coelhovision.streamlit.app/&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+COELHO VISION: Revolutionizing Computer Vision
+&lt;br&gt;&lt;br&gt;
+Explore COELHO VISION, a cutting-edge platform utilizing OpenCV, Ultralytics, and MediaPipe for advanced Computer Vision applications. Key offerings include:
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Object Detection: For object, image classification, and face detection.&lt;/li&gt;
+&lt;li&gt;Image Segmentation: Precise segmentation for detailed image analysis.&lt;/li&gt;
+&lt;li&gt;Pose Estimation: Tools for gesture recognition and motion analysis.&lt;/li&gt;
+&lt;li&gt;Live Camera Integration: Apply these technologies in real-time using your device&amp;rsquo;s camera.
+&lt;br&gt;&lt;br&gt;
+Ideal for developers and tech enthusiasts, COELHO VISION is at the forefront of integrating AI with Computer Vision, providing practical, innovative solutions for digital imagery.
+&lt;br&gt;&lt;br&gt;
+Discover more with COELHO VISION – where technology meets vision.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Formula 1 Analytics</title>
+      <link>http://localhost:1313/project/f1analytics/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/f1analytics/</guid>
+      <description>&lt;p&gt;Link: &lt;a href=&#34;https://f1analytics.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://f1analytics.streamlit.app/&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+Discover the exhilarating world of Formula One racing like never before with Formula One Analytics, your ultimate destination for everything F1. From the rich history and iconic circuits to in-depth analyses of each season, our Overview section immerses you in the sport&amp;rsquo;s storied legacy.
+&lt;br&gt;&lt;br&gt;
+Dive deeper into detailed statistics and patterns in the Insights section, perfect for enthusiasts ager to understand the nuances of track performances and driver strategies. Stay up-to-date with comprehensive reviews of each season in our Seasons section, offering exclusive insights into key race strategies and driver skills.
+&lt;br&gt;&lt;br&gt;
+And don&amp;rsquo;t miss the revolutionary AI Space, where cutting-edge Machine Learning technology meets the thrill of F1, promising to reshape how we experience this fascinating sport. Join us at Formula One Analytics for a unique journey into the heart of Formula 1 racing, where data-driven excitement meets the roar of the engines!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>COELHO Finance</title>
-      <link>http://localhost:1313/project/f1analytics/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/f1analytics/</guid>
-      <description>&lt;p&gt;COELHO Finance is a powerful platform designed to help users make informed investment decisions,
-track portfolios, and identify opportunities. Developed as a personal project, it leverages Data Science,
-Machine Learning, and AI tools for the financial market.&lt;/p&gt;</description>
+      <link>http://localhost:1313/project/coelhofinance/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/coelhofinance/</guid>
+      <description>&lt;p&gt;Link: &lt;a href=&#34;https://coelhofinance.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://coelhofinance.streamlit.app/&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+Get to know COELHO Finance, a new powerful tool to help you make informed investment decisions, track your investments and identify opportunities. With COELHO Finance, you can have the confidence to take control of your finances and achieve your investment goals.
+&lt;br&gt;&lt;br&gt;
+This Financial Market platform was developed with the intention of being a personal portfolio project to test lots of Data Science, Machine Learning and Artificial Intelligence tools and frameworks applied to Financial Market. For now, the access to the platform is free.&lt;/p&gt;</description>
     </item>
     
   </channel>
