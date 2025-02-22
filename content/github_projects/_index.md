@@ -14,7 +14,6 @@ sections:
     content:
       title: ''
       subtitle: ''
-      text-align: 'left'
       text: |-
         ## 2024
         - [COELHO GenAI](https://github.com/rafaelcoelho1409/COELHOGenAI)  

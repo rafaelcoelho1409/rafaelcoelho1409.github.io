@@ -14,7 +14,6 @@ sections:
     content:
       title: 'Data Science & Artificial Intelligence'
       subtitle: ''
-      text-align: 'left'
       text: |-
         #### Machine Learning & Deep Learning
         - Tensorflow
@@ -74,7 +73,6 @@ sections:
     content:
       title: 'Cybersecurity'
       subtitle: ''
-      text-align: 'left'
       text: |-
         #### Vulnerability Assessment
         - Metasploit
