@@ -20,6 +20,7 @@ sections:
         - PyTorch
         - Keras
         - Scikit-Learn
+        - YellowBrick
         - XGBoost
         - ADTK (Anomaly Detection Tool Kit)
         - UMAP (Uniform Manifold Approximation and Projection)
