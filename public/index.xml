@@ -42,7 +42,7 @@
 Complete demonstration on YouTube: &lt;a href=&#34;https://www.youtube.com/watch?v=lxXcUA0jmcM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COELHO Agents Presentation&lt;/a&gt;
 &lt;br&gt;&lt;br&gt;
 COELHO Agents is my project involving AI Autonomous Agents with three functionalities:&lt;br&gt;
-&lt;strong&gt;1) Simple Assistant:&lt;/strong&gt; A simple chatbot with memory with real-time response&lt;br&gt;
+&lt;strong&gt;1) Simple Assistant:&lt;/strong&gt; A simple chatbot with memory and real-time response&lt;br&gt;
 &lt;strong&gt;2) Software Developer:&lt;/strong&gt; Tool formed by AI Agents to generate software code and to run this generated code, with cycles of code fixing autonomously.&lt;br&gt;
 &lt;strong&gt;3) YouTube Content Search:&lt;/strong&gt; A distinguished tool that extracts YouTube videos transcriptions and use Knowledge Graph to get important informations and to store it into a graph database (Neo4J). The main advantage of this tool is that you can extract specific informations coming from personal points of views, which are not available on Google search, that doesn&amp;rsquo;t index YouTube videos transcriptions.&lt;br&gt;
 &lt;br&gt;&lt;br&gt;

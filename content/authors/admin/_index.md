@@ -99,20 +99,27 @@ work:
 
       Developed platforms:
 
-      - COELHO Finance: Financial Market platform with information tools involving statistics and mathematical analyses (UNIMARKET, UNISTATS, MULTIMARKET and Backtesting)
+      - COELHO Finance: Financial Market platform with information tools involving statistics and mathematical analyses (UNIMARKET, UNISTATS, MULTIMARKET and Backtesting)  
       Link: https://coelhofinance.streamlit.app/
 
-      - Formula 1 Analytics: a platform with complete data from every F1 season since 1950, with historical information about circuits, drivers, races and constructors with three tools: Insights, Seasons and AI Space.
+      - Formula 1 Analytics: a platform with complete data from every F1 season since 1950, with historical information about circuits, drivers, races and constructors with three tools: Insights, Seasons and AI Space.  
       Link: https://f1analytics.streamlit.app/
 
-      - COELHO VISION: Computer Vision and AI platform with some of the most modern applications in these two areas. These applications work as in a single image as in a live camera. It's available also in Windows software version. (Tools: Object Detection, Image Segmentation, Pose Estimation and Live Camera)
+      - COELHO VISION: Computer Vision and AI platform with some of the most modern applications in these two areas. These applications work as in a single image as in a live camera. It's available also in Windows software version. (Tools: Object Detection, Image Segmentation, Pose Estimation and Live Camera)  
       Link: https://coelhovision.streamlit.app/
 
-      - Pentesting Automation: I developed a pentesting automation using Python, Bash and Go languages to scan 20+ websites vulnerabilities, seeking for reporting these vulnerabilities to Bug Bounty programs in platforms like HackerOne, BugCrowd and Intigriti.
+      - Pentesting Automation: I developed a pentesting automation using Python, Bash and Go languages to scan 20+ websites vulnerabilities, seeking for reporting these vulnerabilities to Bug Bounty programs in platforms like HackerOne, BugCrowd and Intigriti.  
       Link: https://github.com/rafaelcoelho1409/PentestingAutomation/
 
-      - COELHO GenAI: This project was built in Streamlit and using LangChain and Ollama (open-source LLM application). My purpose on this project is to show my skills to work with these tools in order to build customized LLM models and interfaces to users, in addition to show the power of local LLMs that are able to work also offline. It works fine with the most advanced open source LLMs like Meta Llama 3.1, Google Gemma 2, Microsoft Phi 3.5, Qwen 2.5 and others.
+      - COELHO GenAI: This project was built in Streamlit and using LangChain and Ollama (open-source LLM application). My purpose on this project is to show my skills to work with these tools in order to build customized LLM models and interfaces to users, in addition to show the power of local LLMs that are able to work also offline. It works fine with the most advanced open source LLMs like Meta Llama 3.1, Google Gemma 2, Microsoft Phi 3.5, Qwen 2.5 and others.  
       Link: https://github.com/rafaelcoelho1409/COELHOGenAI/
+
+      - COELHO Agents: my project involving AI Autonomous Agents with three functionalities:  
+      **1) Simple Assistant:** A simple chatbot with memory and real-time response  
+      **2) Software Developer:** Tool formed by AI Agents to generate software code and to run this generated code, with cycles of code fixing autonomously.  
+      **3) YouTube Content Search:** A distinguished tool that extracts YouTube videos transcriptions and use Knowledge Graph to get important informations and to store it into a graph database (Neo4J). The main advantage of this tool is that you can extract specific informations coming from personal points of views, which are not available on Google search, that doesn't index YouTube videos transcriptions.  
+      This project was built using Streamlit to get the interface, LangChain to build each AI Agent, and LangGraph to build each Multi-Agent approaches. In addition, it's used Neo4J to store entities and relationships among them in order to build a GraphRAG with Knowledge Graph.  
+      Link: https://github.com/rafaelcoelho1409/COELHOAgents/
 
   - position: Machine Learning Engineer
     company_name: EEmovel · Contract
