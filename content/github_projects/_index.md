@@ -15,6 +15,9 @@ sections:
       title: ''
       subtitle: ''
       text: |-
+        ## 2025
+        - [COELHO Agents](https://github.com/rafaelcoelho1409/COELHOAgents)  
+        February 2025  
         ## 2024
         - [COELHO GenAI](https://github.com/rafaelcoelho1409/COELHOGenAI)  
         September 2024  
