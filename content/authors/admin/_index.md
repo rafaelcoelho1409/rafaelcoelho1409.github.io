@@ -52,6 +52,7 @@ interests:
   - Quantum Computing
   - Generative AI
   - AI Autonomous Agents
+  - Financial Market
 
 education:
   #- area: PhD Artificial Intelligence
@@ -275,6 +276,8 @@ languages:
 • Data Scientist and Machine Learning Engineer with over 5 years of experience in the industry.  
 • Highly proficient in Data Science, Machine Learning, Computer Vision and Cybersecurity.  
 • Developing and deploying machine learning models to solve real-world problems, such as predictive models, automation tasks and other models to be applied in industry areas, such as Logistics, Financial Market, Real Estate etc.  
+  
+<i><b>Location:</b> Curitiba, Paraná, Brazil</i>
 
 ---  
 **Expertise in Artificial Intelligence & Data Science:** 
