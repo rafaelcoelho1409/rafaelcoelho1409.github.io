@@ -4,8 +4,7 @@ date: 2025-02-17
 #external_link: https://github.com/rafaelcoelho1409/PentestingAutomation
 ---
 
-Link: https://github.com/rafaelcoelho1409/COELHOAgents  
-Complete demonstration on YouTube: [COELHO Agents Presentation](https://www.youtube.com/watch?v=lxXcUA0jmcM)
+Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOAgents) / [Presentation](https://www.youtube.com/watch?v=lxXcUA0jmcM)) 
 <br><br>
 COELHO Agents is my project involving AI Autonomous Agents with three functionalities:<br>
 **1) Simple Assistant:** A simple chatbot with memory and real-time response  
