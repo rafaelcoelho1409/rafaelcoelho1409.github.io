@@ -101,19 +101,19 @@ work:
       Developed platforms:
 
       - COELHO Finance: Financial Market platform with information tools involving statistics and mathematical analyses (UNIMARKET, UNISTATS, MULTIMARKET and Backtesting)  
-      Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOFinance) / [Streamlit](https://coelhofinance.streamlit.app/) / [Presentation](./uploads/COELHOFinance.pdf))  
+      Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOFinance) / [Streamlit](https://coelhofinance.streamlit.app/) / [Presentation](../uploads/COELHOFinance.pdf))  
 
       - Formula 1 Analytics: a platform with complete data from every F1 season since 1950, with historical information about circuits, drivers, races and constructors with three tools: Insights, Seasons and AI Space.  
-      Links: ([GitHub](https://github.com/rafaelcoelho1409/FormulaOneAnalytics) / [Streamlit](https://f1analytics.streamlit.app/) / [Presentation](./uploads/F1Analytics.pdf))  
+      Links: ([GitHub](https://github.com/rafaelcoelho1409/FormulaOneAnalytics) / [Streamlit](https://f1analytics.streamlit.app/) / [Presentation](../uploads/F1Analytics.pdf))  
 
       - COELHO VISION: Computer Vision and AI platform with some of the most modern applications in these two areas. These applications work as in a single image as in a live camera. It's available also in Windows software version. (Tools: Object Detection, Image Segmentation, Pose Estimation and Live Camera)  
-      Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOVISION) / [Streamlit](https://coelhovision.streamlit.app/) / [Presentation](./uploads/COELHOVISION.pdf))  
+      Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOVISION) / [Streamlit](https://coelhovision.streamlit.app/) / [Presentation](../uploads/COELHOVISION.pdf))  
 
       - Pentesting Automation: I developed a pentesting automation using Python, Bash and Go languages to scan 20+ websites vulnerabilities, seeking for reporting these vulnerabilities to Bug Bounty programs in platforms like HackerOne, BugCrowd and Intigriti.  
-      Links: ([GitHub](https://github.com/rafaelcoelho1409/PentestingAutomation) / [Presentation](./uploads/PentestingAutomation.pdf))  
+      Links: ([GitHub](https://github.com/rafaelcoelho1409/PentestingAutomation) / [Presentation](../uploads/PentestingAutomation.pdf))  
 
       - COELHO GenAI: This project was built in Streamlit and using LangChain and Ollama (open-source LLM application). My purpose on this project is to show my skills to work with these tools in order to build customized LLM models and interfaces to users, in addition to show the power of local LLMs that are able to work also offline. It works fine with the most advanced open source LLMs like Meta Llama 3.1, Google Gemma 2, Microsoft Phi 3.5, Qwen 2.5 and others.  
-      Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOGenAI) / [Presentation](./uploads/COELHOGenAI.pdf)) 
+      Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOGenAI) / [Presentation](../uploads/COELHOGenAI.pdf)) 
 
       - COELHO Agents: my project involving AI Autonomous Agents with three functionalities:  
       **1) Simple Assistant:** A simple chatbot with memory and real-time response  

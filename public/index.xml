@@ -53,7 +53,7 @@ This project was built using Streamlit to get the interface, LangChain to build 
       <link>http://localhost:1313/project/coelhogenai/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/coelhogenai/</guid>
-      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/COELHOGenAI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;./uploads/COELHOGenAI.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;/p&gt;
+      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/COELHOGenAI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;../../uploads/COELHOGenAI.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;COELHO GenAI is a platform that connects the user to open source Large Language Models like Llama 3.1 (Meta), Gemma 2 (Google), Phi 3.5 (Microsoft) and Qwen 2.5 through Ollama, allowing users to have their own Language Model interface with privacy using the following tools:
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -73,7 +73,7 @@ Prompt Engineering is a test tool that allows users to use over 4000 ready promp
       <link>http://localhost:1313/project/pentestingautomation/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/pentestingautomation/</guid>
-      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/PentestingAutomation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;./uploads/PentestingAutomation.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;br&gt;
+      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/PentestingAutomation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;../../uploads/PentestingAutomation.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;br&gt;
 &lt;br&gt;&lt;br&gt;
 Pentesting Automation is a complex pentesting automation which scans more than 20 types of web vulnerabilities in an automated way, saving time from manual work, allowing to focus on tasks which manual and careful analysis is necessary.
 &lt;br&gt;&lt;br&gt;
@@ -93,7 +93,7 @@ This automation was built with KALI Linux VM, and several Go, Bash and Python to
       <link>http://localhost:1313/project/coelhovision/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/coelhovision/</guid>
-      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/COELHOVISION&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;https://coelhovision.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Streamlit&lt;/a&gt; / &lt;a href=&#34;./uploads/COELHOVISION.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;br&gt;
+      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/COELHOVISION&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;https://coelhovision.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Streamlit&lt;/a&gt; / &lt;a href=&#34;../../uploads/COELHOVISION.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;br&gt;
 &lt;br&gt;&lt;br&gt;
 COELHO VISION: Revolutionizing Computer Vision
 &lt;br&gt;&lt;br&gt;
@@ -116,7 +116,7 @@ Discover more with COELHO VISION – where technology meets vision.&lt;/li&gt;
       <link>http://localhost:1313/project/f1analytics/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/f1analytics/</guid>
-      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/FormulaOneAnalytics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;https://f1analytics.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Streamlit&lt;/a&gt; / &lt;a href=&#34;./uploads/F1Analytics.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;br&gt;
+      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/FormulaOneAnalytics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;https://f1analytics.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Streamlit&lt;/a&gt; / &lt;a href=&#34;../../uploads/F1Analytics.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;br&gt;
 &lt;br&gt;&lt;br&gt;
 Discover the exhilarating world of Formula One racing like never before with Formula One Analytics, your ultimate destination for everything F1. From the rich history and iconic circuits to in-depth analyses of each season, our Overview section immerses you in the sport&amp;rsquo;s storied legacy.
 &lt;br&gt;&lt;br&gt;
@@ -338,7 +338,7 @@ And don&amp;rsquo;t miss the revolutionary AI Space, where cutting-edge Machine 
 
 
 
-&lt;div id=&#34;chart-713289546&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-427168539&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -356,7 +356,7 @@ And don&amp;rsquo;t miss the revolutionary AI Space, where cutting-edge Machine 
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-713289546&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-427168539&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1219,7 +1219,7 @@ Parallel 4   :         des6, after des4, 1d
       <link>http://localhost:1313/project/coelhofinance/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/coelhofinance/</guid>
-      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/COELHOFinance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;https://coelhofinance.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Streamlit&lt;/a&gt; / &lt;a href=&#34;./uploads/COELHOFinance.pdf&#34;&gt;Presentation&lt;/a&gt;)
+      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/COELHOFinance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;https://coelhofinance.streamlit.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Streamlit&lt;/a&gt; / &lt;a href=&#34;../../uploads/COELHOFinance.pdf&#34;&gt;Presentation&lt;/a&gt;)
 &lt;br&gt;&lt;br&gt;
 Get to know COELHO Finance, a new powerful tool to help you make informed investment decisions, track your investments and identify opportunities. With COELHO Finance, you can have the confidence to take control of your finances and achieve your investment goals.
 &lt;br&gt;&lt;br&gt;

@@ -3,7 +3,7 @@ title: Formula 1 Analytics
 date: 2023-11-01
 ---
 
-Links: ([GitHub](https://github.com/rafaelcoelho1409/FormulaOneAnalytics) / [Streamlit](https://f1analytics.streamlit.app/) / [Presentation](./uploads/F1Analytics.pdf))  
+Links: ([GitHub](https://github.com/rafaelcoelho1409/FormulaOneAnalytics) / [Streamlit](https://f1analytics.streamlit.app/) / [Presentation](../../uploads/F1Analytics.pdf))  
 <br><br>
 Discover the exhilarating world of Formula One racing like never before with Formula One Analytics, your ultimate destination for everything F1. From the rich history and iconic circuits to in-depth analyses of each season, our Overview section immerses you in the sport's storied legacy.
 <br><br>

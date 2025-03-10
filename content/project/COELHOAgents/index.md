@@ -1,7 +1,6 @@
 ---
 title: COELHO Agents
 date: 2025-02-17
-#external_link: https://github.com/rafaelcoelho1409/PentestingAutomation
 ---
 
 Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOAgents) / [Presentation](https://www.youtube.com/watch?v=lxXcUA0jmcM)) 

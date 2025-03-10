@@ -3,7 +3,7 @@ title: COELHO VISION
 date: 2024-04-01
 ---
 
-Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOVISION) / [Streamlit](https://coelhovision.streamlit.app/) / [Presentation](./uploads/COELHOVISION.pdf))  
+Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOVISION) / [Streamlit](https://coelhovision.streamlit.app/) / [Presentation](../../uploads/COELHOVISION.pdf))  
 <br><br>
 COELHO VISION: Revolutionizing Computer Vision
 <br><br>
