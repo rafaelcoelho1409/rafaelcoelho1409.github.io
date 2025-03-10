@@ -279,6 +279,16 @@ languages:
   
 <i><b>Location:</b> Curitiba, Paraná, Brazil</i>
 
+---
+**Portfolio Projects:**
+- COELHO Finance ([GitHub](https://github.com/rafaelcoelho1409/COELHOFinance) / [Streamlit](https://coelhofinance.streamlit.app/) / [Presentation](./uploads/COELHOFinance.pdf))  
+- Formula 1 Analytics ([GitHub](https://github.com/rafaelcoelho1409/FormulaOneAnalytics) / [Streamlit](https://f1analytics.streamlit.app/) / [Presentation](./uploads/F1Analytics.pdf))  
+- COELHO VISION ([GitHub](https://github.com/rafaelcoelho1409/COELHOVISION) / [Streamlit](https://coelhovision.streamlit.app/) / [Presentation](./uploads/COELHOVISION.pdf))  
+- Pentesting Automation ([GitHub](https://github.com/rafaelcoelho1409/PentestingAutomation) / [Presentation](./uploads/PentestingAutomation.pdf))  
+- COELHO GenAI ([GitHub](https://github.com/rafaelcoelho1409/COELHOGenAI) / [Presentation](./uploads/COELHOGenAI.pdf)) 
+- COELHO Agents ([GitHub](https://github.com/rafaelcoelho1409/COELHOAgents) / [Presentation](https://www.youtube.com/watch?v=lxXcUA0jmcM)) 
+
+
 ---  
 **Expertise in Artificial Intelligence & Data Science:** 
 - Machine Learning 
