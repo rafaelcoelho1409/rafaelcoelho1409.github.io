@@ -338,7 +338,7 @@ And don&amp;rsquo;t miss the revolutionary AI Space, where cutting-edge Machine 
 
 
 
-&lt;div id=&#34;chart-123784965&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-598142376&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -356,7 +356,7 @@ And don&amp;rsquo;t miss the revolutionary AI Space, where cutting-edge Machine 
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-123784965&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-598142376&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
