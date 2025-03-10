@@ -33,18 +33,12 @@ This project was built using Streamlit to get the interface, LangChain to build 
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/coelhogenai/</guid>
       <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/COELHOGenAI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;../../uploads/COELHOGenAI.pdf&#34;&gt;Presentation&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;COELHO GenAI is a platform that connects the user to open source Large Language Models like Llama 3.1 (Meta), Gemma 2 (Google), Phi 3.5 (Microsoft) and Qwen 2.5 through Ollama, allowing users to have their own Language Model interface with privacy using the following tools:
-&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Assistant
-Assistant is a simple chatbot that can answer the questions you have in order to solve problems, have new thoughts and ideas, build new ideas and so on.&lt;/li&gt;
-&lt;li&gt;Information Retrieval
-Information Retrieval connects user local LLM to online tools, such as DuckDuckGo, Wikipedia, PubMed etc.&lt;/li&gt;
-&lt;li&gt;Data Science
-Data Science tool allows user to use autonomous AI agents to explore and to make data analysis and data science over data the user supplies to LLM.&lt;/li&gt;
-&lt;li&gt;Prompt Engineering
-Prompt Engineering is a test tool that allows users to use over 4000 ready prompts coming from LangChain Hub for various tasks.&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;p&gt;&lt;strong&gt;COELHO GenAI&lt;/strong&gt; is a platform that connects the user to open source Large Language Models like Llama 3.1 (Meta), Gemma 2 (Google), and others through services like Ollama and Groq, allowing user to have his own Language Model interface with privacy using the following tools:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1) Assistant:&lt;/strong&gt; Assistant is a simple chatbot that can answer the questions you have in order to solve problems, have new thoughts and ideas, build new ideas and so on.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2) Information Retrieval:&lt;/strong&gt; Information Retrieval connects user local LLM to online tools, such as DuckDuckGo, Wikipedia, PubMed etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3) Data Science:&lt;/strong&gt; Data Science tool allows user to use autonomous AI agents to explore and to make data analysis and data science over data the user supplies to LLM&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4) Document Assistant:&lt;/strong&gt; Document Assistant is a powerful tool that gives you the power to analyze documents using Docling and lots of LangChain document loaders, like Wikipedia and dozens of other useful and famous services.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5) Plan &amp;amp; Solve:&lt;/strong&gt; Plan &amp;amp; Solve tool user AI agents to transform the user request into a detailed strategy planner to solve problems given by the user.&lt;/p&gt;</description>
     </item>
     
     <item>
