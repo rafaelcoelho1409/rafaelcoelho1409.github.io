@@ -31,7 +31,7 @@ sections:
         - Groq
         - OpenAI
         - HuggingFace Transformers
-        #### Machine Learning Deployment
+        #### MLOps
         - Git
         - GitHub
         - FastAPI
