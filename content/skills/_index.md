@@ -31,6 +31,13 @@ sections:
         - Groq
         - OpenAI
         - HuggingFace Transformers
+        #### Machine Learning Deployment
+        - Git
+        - GitHub
+        - FastAPI
+        - MLflow
+        - Docker
+        - Kubernetes
         #### Computer Vision
         - OpenCV
         - Ultralytics
@@ -43,12 +50,6 @@ sections:
         - Plotly
         - PySpark
         - Polars
-        #### Continuous Integration/ Continuous Delivery
-        - Git
-        - GitHub
-        - FastAPI
-        - MLflow
-        - Docker
         #### Data Visualization/ Software Development
         - Plotly Dash
         - Streamlit
