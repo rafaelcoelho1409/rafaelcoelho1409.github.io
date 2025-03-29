@@ -16,6 +16,8 @@ sections:
       subtitle: ''
       text: |-
         ## 2025
+        - [YouTube Content Search](https://github.com/rafaelcoelho1409/YouTubeContentSearch)  
+        March 2025  
         - [COELHO Agents](https://github.com/rafaelcoelho1409/COELHOAgents)  
         February 2025  
         ## 2024

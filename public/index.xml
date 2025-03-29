@@ -34,6 +34,24 @@
     </item>
     
     <item>
+      <title>YouTube Content Search</title>
+      <link>http://localhost:1313/project/youtubecontentsearch/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/youtubecontentsearch/</guid>
+      <description>&lt;p&gt;Links: (&lt;a href=&#34;https://github.com/rafaelcoelho1409/YouTubeContentSearch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;../../uploads/YouTubeContentSearch.pdf&#34;&gt;Presentation&lt;/a&gt;)
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;YouTube Content Search&lt;/b&gt; is a platform that leverages the power of AI Agents using LangChain and LangGraph to get important informations from YouTube videos, by extracting relationships between entities (Knowledge Graph) identified from video transcriptions and by storing these informations into a Graph Database called Neo4J.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Knowledge Graphs&lt;/b&gt; enable more precise information retrieval than traditional RAGs with vector databases by explicitly modeling relationships between entities. Unlike vector-based RAG, which relies on semantic similarity, KGs structurally capture connections (e.g., &amp;lsquo;X works_for Y → Y located_in Z&amp;rsquo;), allowing for accurate, multi-hop reasoning and logically consistent answers. This makes KGs superior for complex queries requiring relational understanding.&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr&gt;
+YouTube Content Search is a platform that connects the user to open source Large Language Models like Llama 3.1 (Meta), Gemma 2 (Google), and others through services like Groq and OpenAI. By using this platform, you can search for informations through 4 options:&lt;br&gt;
+&lt;b&gt;1) Search&lt;/b&gt;: The Search option calls AI Agents to search for videos autonomously, based on the context and filters the user provides.&lt;br&gt;
+&lt;b&gt;2) Video&lt;/b&gt;: The Video option extract the informations from a specific video requested by user.&lt;br&gt;
+&lt;b&gt;3) Channel&lt;/b&gt;: The Channel option calls AI Agents to retrieve informations from video transcriptions of a YouTube channel that the user has interest to know more about.&lt;br&gt;
+&lt;b&gt;4) Playlist&lt;/b&gt;: The Playlist option works in a similar way that Channel options does, but retrieving transcription informations coming from YouTube playlists instead.&lt;br&gt;&lt;br&gt;
+And all these options allows the user to ask anything it wants about the videos transcriptions obtained and processed by AI Agents, and one of these AI Agents will answer accurately the questions by consulting and retrieving its own Knowledge Graph.</description>
+    </item>
+    
+    <item>
       <title>COELHO Agents</title>
       <link>http://localhost:1313/project/coelhoagents/</link>
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
@@ -332,7 +350,7 @@ And don&amp;rsquo;t miss the revolutionary AI Space, where cutting-edge Machine 
 
 
 
-&lt;div id=&#34;chart-579648321&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-496752318&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -350,7 +368,7 @@ And don&amp;rsquo;t miss the revolutionary AI Space, where cutting-edge Machine 
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-579648321&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-496752318&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

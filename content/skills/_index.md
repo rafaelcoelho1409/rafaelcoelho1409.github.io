@@ -35,9 +35,11 @@ sections:
         - Git
         - GitHub
         - FastAPI
+        - Pydantic
         - MLflow
         - Docker
         - Kubernetes
+        - Minikube
         #### Computer Vision
         - OpenCV
         - Ultralytics

@@ -10,11 +10,15 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/coelhoagents/</loc>
-    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/project/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
+    <loc>http://localhost:1313/project/youtubecontentsearch/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/project/coelhoagents/</loc>
     <lastmod>2025-02-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
