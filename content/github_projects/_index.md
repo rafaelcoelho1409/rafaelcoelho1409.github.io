@@ -17,42 +17,63 @@ sections:
       text: |-
         ## 2025
         - [YouTube Content Search](https://github.com/rafaelcoelho1409/YouTubeContentSearch)  
-        March 2025  
+        <i>March 2025</i>  
+        <small>| Python | FastAPI | Pydantic | Streamlit | LangChain | LangGraph | Neo4J | Pytubefix | MLflow | Docker | Kubernetes | Minikube |</small>  
         - [COELHO Agents](https://github.com/rafaelcoelho1409/COELHOAgents)  
-        February 2025  
+        <i>February 2025</i>   
+        <small>| Python | Streamlit | LangChain | LangGraph | Ollama | Pytubefix | Neo4J |</small>
+        ---
         ## 2024
         - [COELHO GenAI](https://github.com/rafaelcoelho1409/COELHOGenAI)  
-        September 2024  
+        <i>September 2024</i>  
+        <small>| Python | Streamlit | Ollama | LangChain | LangGraph | Qdrant | Docling |</small>
         - [Pentesting Automation](https://github.com/rafaelcoelho1409/PentestingAutomation/)  
-        July 2024  
+        <i>July 2024</i>  
+        <small>| Python | Bash | Go | Metasploit | Burp Suite | NMAP | Nikto | Project Discovery Tools | QEMU | Kali Linux | Ubuntu | Selenium WebDriver | Airflow | Luigi | Shodan | Censys |</small>  
+        ---
         ## 2023
-        - [COELHO VISION](https://coelhovision.streamlit.app/)  
-        December 2023  
-        - [Formula 1 Analytics](https://f1analytics.streamlit.app/)  
-        December 2023  
-        - [COELHO Finance](https://coelhofinance.streamlit.app/)  
-        September 2023  
+        - [COELHO VISION](https://github.com/rafaelcoelho1409/COELHOVISION/)  
+        <i>December 2023</i>  
+        <small>| Python | Streamlit | MediaPipe | OpenCV | Ultralytics | RoboFlow | OpenVINO |</small>  
+        - [Formula 1 Analytics](https://github.com/rafaelcoelho1409/FormulaOneAnalytics/)  
+        <i>December 2023</i>  
+        <small>| Python | Streamlit | Scikit-Learn | UMAP (Uniform Manifold Approximation and Projection) |</small>  
+        - [COELHO Finance](https://github.com/rafaelcoelho1409/COELHOFinance/)  
+        <i>September 2023</i>  
+        <small>| Python | Streamlit | ADTK (Anomaly Detection Tool Kit) | QuantStats | Scikit-Learn | Statsmodels | YFinance |</small>  
+        ---
         ## 2022  
         - [Data Engineering and Machine Learning with Airflow & PySpark](https://github.com/rafaelcoelho1409/DataEngineering)  
-        April 2022   
+        <i>April 2022</i>   
+        <small>| Python | PySpark | Airflow |</small>  
         - [Data Engineering and Machine Learning with Airflow, Pandas, SARIMAX and XGBoost](https://github.com/rafaelcoelho1409/DataEngineering2)  
-        April 2022  
+        <i>April 2022</i>   
+        <small>| Python | Airflow | PmdARIMA | XGBoost | Scikit-Learn |</small>  
         - [Time Series & Forecast using SARIMAX, XGBoost and Facebook Prophet](https://github.com/rafaelcoelho1409/TimeSeriesForecast)  
-        March 2022  
+        <i>March 2022</i>  
+        <small>| Python | Scikit-Learn | Prophet | PmdARIMA | XGBoost |</small>  
         - [Natural Language Processing (NLP) & Web Scraping](https://github.com/rafaelcoelho1409/NLP-WebScraping)  
-        March 2022  
+        <i>March 2022</i>  
+        <small>| Python | Selenium WebDriver | NLTK | Streamlit |</small>  
         - [Computer Vision with Tensorflow, Keras and OpenCV](https://github.com/rafaelcoelho1409/ComputerVision)  
-        January 2022  
+        <i>January 2022</i>  
+        <small>| Python | Streamlit | TensorFlow | Keras | OpenCV |</small>  
         - [Deep Learning using Tensorflow & Keras](https://github.com/rafaelcoelho1409/DeepLearning)  
-        January 2022  
+        <i>January 2022</i>  
+        <small>| Python | Streamlit | TensorFlow | Keras |</small>  
+        ---   
         ## 2021  
         - [Customer segmentation using clustering algorithms (Machine Learning)](https://github.com/rafaelcoelho1409/CustomerSegmentation)  
-        November 2021  
+        <i>November 2021</i>  
+        <small>| Python | Streamlit | Scikit-Learn |</small>   
         - [Web Scraping with Selenium to collect product prices on Google Shopping](https://github.com/rafaelcoelho1409/GoogleShoppingBot)  
-        November 2021  
+        <i>November 2021</i>  
+        <small>| Python | Selenium WebDriver |</small>  
         - [Detecting and classifying objects using Computer Vision and Deep Learning](https://github.com/rafaelcoelho1409/Computer_Vision_AI_1)  
-        May 2021  
+        <i>May 2021</i>  
+        <small>| Python | OpenCV | TensorFlow |</small>  
         - [X-ray images for detection of COVID-19 or pneumonia](https://github.com/rafaelcoelho1409/Chest-X-Ray-COVID-19)  
-        March 2021  
+        <i>March 2021</i>  
+        <small>| Python | TensorFlow | Keras |</small>  
 ---
 
