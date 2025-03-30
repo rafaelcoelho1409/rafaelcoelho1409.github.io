@@ -71,7 +71,7 @@ sections:
         <small>| Python | Selenium WebDriver |</small>  
         - [Detecting and classifying objects using Computer Vision and Deep Learning](https://github.com/rafaelcoelho1409/Computer_Vision_AI_1)  
         <i>May 2021</i>  
-        <small>| Python | OpenCV | TensorFlow |</small>  
+        <small>| Python | OpenCV | TensorFlow | Keras |</small>  
         - [X-ray images for detection of COVID-19 or pneumonia](https://github.com/rafaelcoelho1409/Chest-X-Ray-COVID-19)  
         <i>March 2021</i>  
         <small>| Python | TensorFlow | Keras |</small>  
