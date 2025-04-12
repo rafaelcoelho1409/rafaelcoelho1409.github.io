@@ -47,10 +47,11 @@ sections:
         - OpenVINO
         - RoboFlow
         #### Data Science & Data Engineering
+        - PySpark
+        - Delta Lake
         - NumPy
         - Pandas
         - Plotly
-        - PySpark
         - Polars
         #### Data Visualization/ Software Development
         - Plotly Dash
