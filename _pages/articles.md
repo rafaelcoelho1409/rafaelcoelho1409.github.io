@@ -30,8 +30,10 @@ pagination:
   {% endif %}
 
 {% comment %}
+
 <!-- Tag and Category Filter Links - Uncomment to enable -->
 <!-- These link to /blog/tag/ and /blog/category/ archive pages -->
+
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
@@ -61,8 +63,10 @@ pagination:
 {% endcomment %}
 
 {% comment %}
+
 <!-- Featured/Pinned Posts Section - Uncomment to enable -->
 <!-- To use: Add "featured: true" to a post's front matter -->
+
 {% assign featured_posts = site.posts | where: "featured", "true" | where_exp: "post", "post.categories contains 'published-articles'" %}
 {% if featured_posts.size > 0 %}
 <br>

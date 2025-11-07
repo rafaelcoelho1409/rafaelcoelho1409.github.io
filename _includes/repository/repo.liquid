@@ -45,16 +45,20 @@
     >
   </a>
   {% if include.project_name or include.release_date or include.key_tools %}
-  <div class="repo-metadata text-left mt-2" style="font-size: 0.9rem;">
-    {% if include.project_name %}
-    <div><strong>{{ include.project_name }}</strong></div>
-    {% endif %}
-    {% if include.release_date %}
-    <div><em>{{ include.release_date }}</em></div>
-    {% endif %}
-    {% if include.key_tools %}
-    <div>{{ include.key_tools }}</div>
-    {% endif %}
-  </div>
+    <div class="repo-metadata text-left mt-2" style="font-size: 0.9rem;">
+      {% if include.project_name %}
+        <div>
+          <strong>{{ include.project_name }}</strong>
+        </div>
+      {% endif %}
+      {% if include.release_date %}
+        <div>
+          <em>{{ include.release_date }}</em>
+        </div>
+      {% endif %}
+      {% if include.key_tools %}
+        <div>{{ include.key_tools }}</div>
+      {% endif %}
+    </div>
   {% endif %}
 </div>

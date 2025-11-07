@@ -11,20 +11,21 @@ images:
   slider: true
 ---
 
-Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOVISION) / [Streamlit](https://coelhovision.streamlit.app/) / [Presentation](../../assets/pdf/COELHOVISION.pdf)) 
+Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOVISION) / [Streamlit](https://coelhovision.streamlit.app/) / [Presentation](../../assets/pdf/COELHOVISION.pdf))
 <br><br>
 COELHO VISION: Revolutionizing Computer Vision
 <br><br>
 Explore COELHO VISION, a cutting-edge platform utilizing OpenCV, Ultralytics, and MediaPipe for advanced Computer Vision applications. Key offerings include:
 <br><br>
-1) Object Detection: For object, image classification, and face detection.
-2) Image Segmentation: Precise segmentation for detailed image analysis.
-3) Pose Estimation: Tools for gesture recognition and motion analysis.
-4) Live Camera Integration: Apply these technologies in real-time using your device's camera.
-<br><br>
-Ideal for developers and tech enthusiasts, COELHO VISION is at the forefront of integrating AI with Computer Vision, providing practical, innovative solutions for digital imagery.
-<br><br>
-Discover more with COELHO VISION – where technology meets vision.
+
+1. Object Detection: For object, image classification, and face detection.
+2. Image Segmentation: Precise segmentation for detailed image analysis.
+3. Pose Estimation: Tools for gesture recognition and motion analysis.
+4. Live Camera Integration: Apply these technologies in real-time using your device's camera.
+   <br><br>
+   Ideal for developers and tech enthusiasts, COELHO VISION is at the forefront of integrating AI with Computer Vision, providing practical, innovative solutions for digital imagery.
+   <br><br>
+   Discover more with COELHO VISION – where technology meets vision.
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   {% for i in (1..page.slides_count) %}

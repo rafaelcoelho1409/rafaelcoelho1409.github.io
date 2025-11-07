@@ -11,7 +11,7 @@ images:
   slider: true
 ---
 
-Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOFinance) / [Streamlit](https://coelhofinance.streamlit.app/) / [Presentation](../../assets/pdf/COELHOFinance.pdf)) 
+Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOFinance) / [Streamlit](https://coelhofinance.streamlit.app/) / [Presentation](../../assets/pdf/COELHOFinance.pdf))
 <br><br>
 Get to know COELHO Finance, a new powerful tool to help you make informed investment decisions, track your investments and identify opportunities. With COELHO Finance, you can have the confidence to take control of your finances and achieve your investment goals.
 <br><br>

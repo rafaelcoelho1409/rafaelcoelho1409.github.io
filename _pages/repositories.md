@@ -44,6 +44,7 @@ nav_order: 4
 {% assign repos_by_year = site.data.repositories.github_repos | group_by: "year" | sort: "name" | reverse %}
 
 {% for year_group in repos_by_year %}
+
   <h3><strong>{{ year_group.name }}</strong></h3>
   <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% for repo in year_group.items %}
@@ -51,7 +52,7 @@ nav_order: 4
     {% endfor %}
   </div>
 
-  ---
+---
 
 {% endfor %}
 
