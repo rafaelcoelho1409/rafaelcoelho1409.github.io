@@ -1,0 +1,101 @@
+github_users:
+  - rafaelcoelho1409
+
+repo_description_lines_max: 1
+
+github_repos:
+  #2025
+  - repo: rafaelcoelho1409/K3D
+    year: 2025
+    project_name: Building a local Kubernetes cluster with DevOps tools using Terraform
+    release_date: November 2025
+    key_tools: "K3D | Docker | Kubernetes | Helm | Terraform | ArgoCD | GitLab | Rancher | LocalStack"
+  - repo: rafaelcoelho1409/YouTubeContentSearch
+    year: 2025
+    project_name: YouTube Content Search
+    release_date: March 2025
+    key_tools: "Python | FastAPI | Pydantic | Streamlit | LangChain | LangGraph | Neo4J | Pytubefix | MLflow | Docker | Kubernetes | Minikube"
+  - repo: rafaelcoelho1409/COELHOAgents
+    year: 2025
+    project_name: COELHO Agents
+    release_date: February 2025
+    key_tools: "Python | Streamlit | LangChain | LangGraph | Ollama | Pytubefix | Neo4J"
+  #2024
+  - repo: rafaelcoelho1409/COELHOGenAI
+    year: 2024
+    project_name: COELHO GenAI
+    release_date: September 2024
+    key_tools: "Python | Streamlit | Ollama | LangChain | LangGraph | Qdrant | Docling"
+  - repo: rafaelcoelho1409/PentestingAutomation
+    year: 2024
+    project_name: Pentesting Automation
+    release_date: July 2024
+    key_tools: "Python | Bash | Go | Metasploit | Burp Suite | NMAP | Nikto | Project Discovery Tools | QEMU | Kali Linux | Ubuntu | Selenium WebDriver | Airflow | Luigi | Shodan | Censys"
+  #2023
+  - repo: rafaelcoelho1409/COELHOVISION
+    year: 2023
+    project_name: COELHO Vision
+    release_date: December 2023
+    key_tools: "Python | Streamlit | MediaPipe | OpenCV | Ultralytics | RoboFlow | OpenVINO"
+  - repo: rafaelcoelho1409/FormulaOneAnalytics
+    year: 2023
+    project_name: Formula One Analytics
+    release_date: December 2023
+    key_tools: "Python | Streamlit | Scikit-Learn | UMAP (Uniform Manifold Approximation and Projection)"
+  - repo: rafaelcoelho1409/COELHOFinance
+    year: 2023
+    project_name: COELHO Finance
+    release_date: September 2023
+    key_tools: "Python | Streamlit | ADTK (Anomaly Detection Tool Kit) | QuantStats | Scikit-Learn | Statsmodels | YFinance"
+  #2022
+  - repo: rafaelcoelho1409/DataEngineering
+    year: 2022
+    project_name: Data Engineering and Machine Learning with Airflow & PySpark
+    release_date: April 2022
+    key_tools: "Python | PySpark | Airflow"
+  - repo: rafaelcoelho1409/DataEngineering2
+    year: 2022
+    project_name: Data Engineering and Machine Learning with Airflow, Pandas, SARIMAX and XGBoost
+    release_date: April 2022
+    key_tools: "Python | Airflow | PmdARIMA | XGBoost | Scikit-Learn"
+  - repo: rafaelcoelho1409/TimeSeriesForecast
+    year: 2022
+    project_name: Time Series & Forecast using SARIMAX, XGBoost and Facebook Prophet
+    release_date: March 2022
+    key_tools: "Python | Scikit-Learn | Prophet | PmdARIMA | XGBoost"
+  - repo: rafaelcoelho1409/NLP-WebScraping
+    year: 2022
+    project_name: Natural Language Processing (NLP) & Web Scraping
+    release_date: March 2022
+    key_tools: "Python | Selenium WebDriver | NLTK | Streamlit"
+  - repo: rafaelcoelho1409/ComputerVision
+    year: 2022
+    project_name: Computer Vision with Tensorflow, Keras and OpenCV
+    release_date: January 2022
+    key_tools: "Python | Streamlit | TensorFlow | Keras | OpenCV"
+  - repo: rafaelcoelho1409/DeepLearning
+    year: 2022
+    project_name: Deep Learning using Tensorflow & Keras
+    release_date: January 2022
+    key_tools: "Python | Streamlit | TensorFlow | Keras"
+  #2021
+  - repo: rafaelcoelho1409/CustomerSegmentation
+    year: 2021
+    project_name: Customer segmentation using clustering algorithms (Machine Learning)
+    release_date: November 2021
+    key_tools: "Python | Streamlit | Scikit-Learn"
+  - repo: rafaelcoelho1409/GoogleShoppingBot
+    year: 2021
+    project_name: Web Scraping with Selenium to collect product prices on Google Shopping
+    release_date: November 2021
+    key_tools: "Python | Selenium WebDriver | Docker"
+  - repo: rafaelcoelho1409/Computer_Vision_AI_1
+    year: 2021
+    project_name: Detecting and classifying objects using Computer Vision and Deep Learning
+    release_date: May 2021
+    key_tools: "Python | OpenCV | TensorFlow | Keras"
+  - repo: rafaelcoelho1409/Chest-X-Ray-COVID-19
+    year: 2021
+    project_name: X-ray images for detection of COVID-19 or pneumonia
+    release_date: March 2021
+    key_tools: "Python | TensorFlow | Keras"
