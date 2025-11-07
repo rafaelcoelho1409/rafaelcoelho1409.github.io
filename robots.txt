@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://rafaelcoelho1409.github.io/al-folio/sitemap.xml
