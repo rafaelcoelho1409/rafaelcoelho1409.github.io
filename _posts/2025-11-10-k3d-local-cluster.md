@@ -15,6 +15,7 @@ images:
 Links: ([GitHub](https://github.com/rafaelcoelho1409/K3D))
 
 ## Motivation
+
 In the last months, I've worked in some projects involving **Machine Learning** and **DevOps** in the current company I'm working at. In two projects, one involving a recommendation system for job positions and another called **Speech-To-Speech** (**Speech-To-Text** (**STT**) / **Automatic Speech Recognition** (**ASR**) + **Text-To-Speech** (**TTS**)), along with a personal **Real-Time Machine Learning** project that I'm developing and refining in the last months, in my free time.
 
 But while I was working in all these projects, I felt the necessity of replicating a local **Kubernetes** cluster with real-time updates before pushing repos to production stage, so I started using **K3D** and **Skaffold** (which will be present in this future **Real-Time Machine Learning** project).
@@ -26,22 +27,27 @@ As I'm currently using **Arch Linux** as my operational system, I saved all thes
 
 **Terraform** is a **Infrastructure-as-Code** (**IaC**) tool that allows you to set up cloud services and infrastructure by using code (.tf files) instead of setting up manually via terminal, for example, making this process much simpler.
 
-One important observation is: you should have a machine with at least 16GB to avoid system crashes. In my local test, my local **K3D** cluster with all these tools installed together (**GitLab** + **Rancher** + **ArgoCD** + **LocalStack**) was spending aroung 10GB RAM memory size, a big portion of these 10GB was being used by **GitLab** tools. Obviously, you can optimize this setup and disable some **GitLab** tools that you won't use editing the values.yaml file (**Helm** values), but in my case, I wanted to reproduce a complete local **CI/CD** environment.  
+One important observation is: you should have a machine with at least 16GB to avoid system crashes. In my local test, my local **K3D** cluster with all these tools installed together (**GitLab** + **Rancher** + **ArgoCD** + **LocalStack**) was spending aroung 10GB RAM memory size, a big portion of these 10GB was being used by **GitLab** tools. Obviously, you can optimize this setup and disable some **GitLab** tools that you won't use editing the values.yaml file (**Helm** values), but in my case, I wanted to reproduce a complete local **CI/CD** environment.
 
 ## DevOps
+
 ### Features
+
 - **K3D Cluster**: 1 server + 3 agents with local **Docker** registry
 - **ArgoCD**: **GitOps** continuous delivery tool
 - **ArgoCD Image Updater**: Automatically updates image tags in **Git**
 - **GitLab**: Complete **DevOps** platform with **CI/CD**
 - **Rancher**: **Kubernetes** management platform
 - **LocalStack**: **AWS** service emulator for local development
-  
+
 ### Project Architecture
+
 <img src="../../../assets/img/articles/k3d-local-cluster/terraform_k3d_diagram.png" alt="Architecture" style="max-width: 800px; width: 100%; height: auto;" class="img-fluid rounded z-depth-1">
 
 ## My Personal Setup
+
 > WARNING: It's highly recommended to have at least 32GB RAM to reproduce this setup, or 16GB if you consider disable some **GitLab** unused features on terraform/modules/gitlab/values.yaml
+
 - Operational System: **Arch Linux**
 - RAM size: 64GB
 - Processor: **Intel Core i7** 11th Generation
@@ -49,6 +55,7 @@ One important observation is: you should have a machine with at least 16GB to av
 - Disk size: 2TB (**SSD Nvme**)
 
 ## Installation requirements
+
 - [**K3D**](https://k3d.io/stable/#installation)
 - [**Docker**](https://docs.docker.com/engine/install/)
 - [**Kubernetes**](https://kubernetes.io/docs/tasks/tools/) (OBS: **kubectl** is enough for this case)
@@ -58,28 +65,35 @@ One important observation is: you should have a machine with at least 16GB to av
 ## Installation steps
 
 ### 1. Clone the repo
+
 ```bash
 git clone https://github.com/rafaelcoelho1409/K3D
 ```
 
 ### 2. Enter the Terraform folder
+
 ```bash
 cd K3D/terraform
 ```
 
 ### 3. Initialize Terraform
+
 ```bash
 terraform init
 ```
 
 ### 4. Create the K3D cluster
+
 Instantiate local **K3D** (**Kubernetes**) cluster first to avoid connectivity issues:
+
 ```bash
 terraform apply -target=module.k3d_cluster
 ```
 
 ### 5. Deploy all services
+
 Instantiate all other services into **K3D** cluster (**GitLab**, **Rancher**, **ArgoCD** and **LocalStack**):
+
 ```bash
 terraform apply
 ```
@@ -87,6 +101,7 @@ terraform apply
 > **WARNING**: This step takes several minutes. Make sure you have enough RAM to avoid crashes.
 
 ### 6. Access the services
+
 After deployment completes, you can access all services at the following addresses:
 
 - **Rancher**: http://localhost:7443
@@ -98,6 +113,7 @@ After deployment completes, you can access all services at the following address
 ### 7. Retrieve credentials
 
 #### Rancher
+
 - **Username**: `root`
 - **Password**:
   ```bash
@@ -105,6 +121,7 @@ After deployment completes, you can access all services at the following address
   ```
 
 #### ArgoCD
+
 - **Username**: `admin`
 - **Password**:
   ```bash
@@ -112,15 +129,16 @@ After deployment completes, you can access all services at the following address
   ```
 
 ## Results
+
 Some months ago, I started working in a personal **Real-Time Machine Learning** project, which simulates real-time data generators and use this data flow to train **Machine Learning** models in real time (classification, regression and clustering models).
 
-I can't reveal more details about the project yet, but I could connect this project to this complete local **DevOps** structure provisioned by **Terraform**. For example, what I did:  
-1) Push the repo to my local **GitLab**  
-2) Create a **GitLab CI** Pipeline that builds all my **Docker** images into microservices architecture, and send the built images to **K3D Registry**  
-3) Once **ArgoCD Image Updater** detects new versions of **Docker** images, it triggers **ArgoCD** to build all **Kubernetes** resources into this **K3D** cluster and monitor the health of these resources in real-time  
-  
-Finally, the main purpose was to build a complete CI/CD flow connecting GitLab CI with ArgoCD, and monitoring Kubernetes resources live on Rancher.
+I can't reveal more details about the project yet, but I could connect this project to this complete local **DevOps** structure provisioned by **Terraform**. For example, what I did:
 
+1. Push the repo to my local **GitLab**
+2. Create a **GitLab CI** Pipeline that builds all my **Docker** images into microservices architecture, and send the built images to **K3D Registry**
+3. Once **ArgoCD Image Updater** detects new versions of **Docker** images, it triggers **ArgoCD** to build all **Kubernetes** resources into this **K3D** cluster and monitor the health of these resources in real-time
+
+Finally, the main purpose was to build a complete CI/CD flow connecting GitLab CI with ArgoCD, and monitoring Kubernetes resources live on Rancher.
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   {% for i in (1..page.slides_count) %}
