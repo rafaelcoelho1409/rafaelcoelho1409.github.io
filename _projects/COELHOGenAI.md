@@ -4,7 +4,7 @@ title: COELHO GenAI
 description: September 2024
 img: assets/img/coelho_genai_logo.png
 date: 2024-09-01
-category: work
+category: latest
 slides_count: 13
 images:
   slider: true

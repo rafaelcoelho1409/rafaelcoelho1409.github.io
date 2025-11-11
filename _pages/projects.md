@@ -8,7 +8,7 @@ description: >
   My main purpose with all these projects is to get more experience and to deliver new results and values thinking about new and future projects.
 nav: true
 nav_order: 2
-display_categories: [work]
+display_categories: [latest, legacy]
 horizontal: false
 ---
 

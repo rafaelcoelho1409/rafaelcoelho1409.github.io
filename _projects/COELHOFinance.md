@@ -4,7 +4,7 @@ title: COELHO Finance
 description: September 2023
 img: assets/img/coelho_finance_logo.png
 date: 2023-09-01
-category: work
+category: latest
 #related_publications: true
 slides_count: 15
 images:

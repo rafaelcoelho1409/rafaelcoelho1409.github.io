@@ -4,7 +4,7 @@ title: Formula 1 Analytics
 description: November 2023
 img: assets/img/f1_home.jpg
 date: 2023-11-01
-category: work
+category: latest
 #giscus_comments: true
 slides_count: 19
 images:

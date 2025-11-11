@@ -5,7 +5,7 @@ description: April 2024
 img: assets/img/coelho_vision_logo.jpg
 #redirect: https://unsplash.com
 date: 2024-04-01
-category: work
+category: latest
 slides_count: 23
 images:
   slider: true

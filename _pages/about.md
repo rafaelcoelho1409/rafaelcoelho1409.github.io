@@ -24,6 +24,16 @@ social: true # includes social icons at the bottom of the page
 #  enabled: true
 #  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #  limit: 3 # leave blank to include all the blog posts
+
+latest_articles:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 articles
+  limit: 3 # leave blank to include all articles
+
+latest_projects:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 projects
+  limit: 3 # leave blank to include all projects
 ---
 
 • Bachelor’s degree in Mathematics at Federal University of Paraná (UFPR) - Brazil.  

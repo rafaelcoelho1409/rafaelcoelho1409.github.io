@@ -4,7 +4,7 @@ title: COELHO Agents
 description: February 2025
 img: assets/img/coelho_agents_logo.png
 date: 2025-02-17
-category: work
+category: latest
 ---
 
 Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOAgents))
