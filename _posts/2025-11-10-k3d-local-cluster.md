@@ -64,25 +64,25 @@ One important observation is: you should have a machine with at least 16GB to av
 
 ## Installation steps
 
-### 1. Clone the repo
+#### 1. Clone the repo
 
 ```bash
 git clone https://github.com/rafaelcoelho1409/K3D
 ```
 
-### 2. Enter the Terraform folder
+#### 2. Enter the Terraform folder
 
 ```bash
 cd K3D/terraform
 ```
 
-### 3. Initialize Terraform
+#### 3. Initialize Terraform
 
 ```bash
 terraform init
 ```
 
-### 4. Create the K3D cluster
+#### 4. Create the K3D cluster
 
 Instantiate local **K3D** (**Kubernetes**) cluster first to avoid connectivity issues:
 
@@ -90,7 +90,7 @@ Instantiate local **K3D** (**Kubernetes**) cluster first to avoid connectivity i
 terraform apply -target=module.k3d_cluster
 ```
 
-### 5. Deploy all services
+#### 5. Deploy all services
 
 Instantiate all other services into **K3D** cluster (**GitLab**, **Rancher**, **ArgoCD** and **LocalStack**):
 
@@ -100,7 +100,7 @@ terraform apply
 
 > **WARNING**: This step takes several minutes. Make sure you have enough RAM to avoid crashes.
 
-### 6. Access the services
+#### 6. Access the services
 
 After deployment completes, you can access all services at the following addresses:
 
@@ -110,9 +110,9 @@ After deployment completes, you can access all services at the following address
 - **LocalStack**: http://localhost:4566
 - **K3D Registry**: http://localhost:5000
 
-### 7. Retrieve credentials
+#### 7. Retrieve credentials
 
-#### Rancher
+##### Rancher
 
 - **Username**: `root`
 - **Password**:
@@ -120,7 +120,7 @@ After deployment completes, you can access all services at the following address
   kubectl get secret gitlab-gitlab-initial-root-password -n ${NAMESPACE} -o jsonpath='{.data.password}' 2>/dev/null | base64 -d || echo "(not ready yet, check in a few minutes)"
   ```
 
-#### ArgoCD
+##### ArgoCD
 
 - **Username**: `admin`
 - **Password**:
@@ -136,7 +136,7 @@ I can't reveal more details about the project yet, but I could connect this proj
 
 1. Push the repo to my local **GitLab**
 2. Create a **GitLab CI** Pipeline that builds all my **Docker** images into microservices architecture, and send the built images to **K3D Registry**
-3. Once **ArgoCD Image Updater** detects new versions of **Docker** images, it triggers **ArgoCD** to build all **Kubernetes** resources into this **K3D** cluster and monitor the health of these resources in real-time
+3. Once **ArgoCD Image Updater** detects new versions of **Docker** images on **K3D Registry**, it triggers **ArgoCD** to build all **Kubernetes** resources defined on **Helm** charts into this **K3D** cluster and monitor the health of these resources in real-time
 
 Finally, the main purpose was to build a complete CI/CD flow connecting GitLab CI with ArgoCD, and monitoring Kubernetes resources live on Rancher.
 
