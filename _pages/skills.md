@@ -304,6 +304,18 @@ nav_order: 5
     </a>
   </div>
   <div class="skill-item">
+    <a href="https://k3d.io/stable/" target="_blank">
+      <img src="https://k3d.io/stable/static/img/k3d_logo_black_blue.svg" alt="K3D">
+      <span>K3D</span>
+    </a>
+  </div>
+  <div class="skill-item">
+    <a href="https://skaffold.dev/docs/" target="_blank">
+      <img src="https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/logo/skaffold.png" alt="Skaffold">
+      <span>Skaffold</span>
+    </a>
+  </div>
+  <div class="skill-item">
     <a href="https://mlflow.org/docs/latest/index.html" target="_blank">
       <img src="https://raw.githubusercontent.com/mlflow/mlflow/refs/heads/master/assets/logo.svg" alt="MLflow">
       <span>MLflow</span>
@@ -334,7 +346,7 @@ nav_order: 5
   </div>
   <div class="skill-item">
     <a href="https://docs.delta.io/" target="_blank">
-      <img src="https://docs.delta.io/latest/_static/delta-lake-logo.png" alt="Delta Lake">
+      <img src="https://delta.io/_astro/delta-lake-logo.Dx7tzbyv_1OsUys.svg" alt="Delta Lake">
       <span>Delta Lake</span>
     </a>
   </div>
