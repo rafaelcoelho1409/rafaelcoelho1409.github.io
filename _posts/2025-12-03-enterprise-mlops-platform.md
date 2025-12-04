@@ -11,13 +11,16 @@ images:
 ---
 
 ## Executive Summary
+
 This project demonstrates the design and implementation of a production-grade MLOps platform built on Kubernetes infrastructure, showcasing enterprise-level DevOps practices and complete automation workflows. The platform integrates modern cloud-native technologies to deliver end-to-end CI/CD pipelines, GitOps-based deployments, and scalable workflow orchestration for machine learning operations.  
 This project represents a significant evolution from the [initial local K3D cluster setup]({% post_url 2025-11-10-k3d-local-cluster %}) post. This time, the source code is not disclosed, as it's a personal project building for a personal use. The main purpose of this article is to show how the project was built and how the results were achieved.
 
 ## Business Context
+
 Over the course of several months working on enterprise machine learning projects — including projects like recommendation system for job positions, Speech-To-Speech system (combining Speech-To-Text/Automatic Speech Recognition with Text-To-Speech), and a platform for Agentic AI, along with a personal Real-Time Machine Learning project in development — the need for a robust, production-ready MLOps infrastructure became evident. Additionally, development of a personal Real-Time Machine Learning project required an environment that could replicate production conditions locally while maintaining full CI/CD capabilities.
 
 The challenge was to create a comprehensive platform that could:
+
 - Support real-time development and testing before production deployment
 - Provide complete GitOps-based continuous delivery
 - Enable automated workflow orchestration for ML pipelines
@@ -198,27 +201,32 @@ The entire infrastructure is provisioned using **Terraform**, providing an abstr
 The platform consists of multiple integrated services, each serving a specific role in the MLOps ecosystem:
 
 #### Container Orchestration Layer
+
 - **K3D Cluster**: Lightweight Kubernetes distribution configured with 1 server node and 3 agent nodes, optimized for local development with production-like characteristics
 - **Docker**: Container runtime providing the foundation for all services
 - **Helm**: Package manager for Kubernetes, enabling consistent deployment of complex applications
 - **K3D Registry**: Local Docker registry for storing and distributing custom container images
 
 #### GitOps & CI/CD Layer
+
 - **GitLab**: Complete DevOps platform providing source control, CI/CD pipelines, and container registry
 - **ArgoCD**: GitOps continuous delivery tool that automatically syncs Kubernetes resources from Git repositories
 - **ArgoCD Image Updater**: Automated detection and deployment of new container image versions, enabling continuous deployment workflows
 
 #### Workflow Orchestration Layer
+
 - **Apache Airflow**: Production-grade workflow orchestration platform for managing complex ML pipelines and data workflows.
 - **Airflow DAG Processor**: Dedicated component for parsing and scheduling workflow definitions
 - **Git-Sync**: Automated synchronization of Airflow DAGs from GitLab repositories
 
 #### Data & Storage Layer
+
 - **MinIO**: S3-compatible object storage for ML artifacts, models, datasets, and pipeline outputs
 - **PostgreSQL**: Relational database serving as metadata store for Airflow and GitLab
 - **Redis**: In-memory data store used for caching and message queuing in workflow execution
 
 #### Management & Monitoring Layer
+
 - **Rancher**: Kubernetes management platform providing centralized cluster monitoring, resource management, and operational insights
 - **LocalStack**: AWS service emulator enabling local development and testing of cloud-native applications without external dependencies
 
@@ -226,7 +234,7 @@ The platform consists of multiple integrated services, each serving a specific r
 
 <img src="../../../assets/img/articles/enterprise-mlops-platform/mlops_k3d_architecture.png" alt="MLOps Platform Architecture" style="max-width: 800px; width: 100%; height: auto;" class="img-fluid rounded z-depth-1">
 
-*The architecture demonstrates a complete MLOps ecosystem with Infrastructure-as-Code provisioning, containerized services, GitOps workflows, and automated data pipeline orchestration.*
+_The architecture demonstrates a complete MLOps ecosystem with Infrastructure-as-Code provisioning, containerized services, GitOps workflows, and automated data pipeline orchestration._
 
 ---
 
@@ -299,7 +307,7 @@ The complete CI/CD and MLOps workflow demonstrated:
   {% endfor %}
 </swiper-container>
 
-*Screenshots demonstrating the operational platform:<br>
+_Screenshots demonstrating the operational platform:<br>
 (1) Example of Terraform code excerpt<br>
 (2) Example of Helm chart for Airflow API Server<br>
 (3) A GitLab repo called DAGs, which will be serving DAGs to Airflow using Git-sync<br>
@@ -308,25 +316,28 @@ The complete CI/CD and MLOps workflow demonstrated:
 (6) PostgreSQL session via terminal<br>
 (7) Redis session via terminal<br>
 (8) Rancher UI showing all Helm packages installed into K3D cluster<br>
-(9) Project example deployed on ArgoCD<br>*
+(9) Project example deployed on ArgoCD<br>_
 
 ---
 
 ## Key Achievements
 
 ### Technical Excellence
+
 - **Complete Automation**: Full infrastructure provisioning automated through Terraform
 - **GitOps Implementation**: True GitOps workflow with declarative configuration and automated synchronization
 - **Microservices Architecture**: Production-ready microservices deployment patterns
 - **Scalable Workflows**: Enterprise-grade workflow orchestration with Apache Airflow
 
 ### DevOps Best Practices
+
 - **Infrastructure as Code**: Version-controlled infrastructure ensuring reproducibility
 - **Immutable Infrastructure**: Container-based deployments with automated rollbacks
 - **Continuous Deployment**: Fully automated deployment pipeline from code commit to production
 - **Observability**: Comprehensive monitoring and resource management through Rancher
 
 ### MLOps Capabilities
+
 - **End-to-End ML Pipelines**: Complete workflow from data ingestion to model deployment
 - **Artifact Management**: S3-compatible object storage for models and datasets
 - **Pipeline Orchestration**: Sophisticated DAG-based workflow scheduling and execution
