@@ -20,15 +20,26 @@
 
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.username }}">
+    {% comment %} Using GitHub Profile Summary Cards - professional and detailed stats {% endcomment %}
     <img
-      class="only-light w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true"
+      class="w-100"
+      alt="{{ include.username }} GitHub Profile"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{ include.username }}&theme=github_dark"
+      style="max-width: 800px; margin-bottom: 20px;"
     >
+    {% comment %} GitHub Stats Card {% endcomment %}
     <img
-      class="only-dark w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_icons=true"
+      class="w-100"
+      alt="{{ include.username }} GitHub Stats"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username={{ include.username }}&theme=github_dark"
+      style="max-width: 400px; display: inline-block; margin: 10px;"
+    >
+    {% comment %} GitHub Streak Stats {% endcomment %}
+    <img
+      class="w-100"
+      alt="{{ include.username }} GitHub Streak"
+      src="https://streak-stats.demolab.com/?user={{ include.username }}&theme=dark"
+      style="max-width: 400px; display: inline-block; margin: 10px;"
     >
   </a>
 </div>

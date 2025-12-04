@@ -485,7 +485,7 @@ nav_order: 5
   </div>
   <div class="skill-item">
     <a href="https://search.censys.io/api" target="_blank">
-      <img src="https://search.censys.io/static/img/censys-2025.svg" alt="Censys">
+      <img src="https://cdn.splunkbase.splunk.com/media/public/icons/5fd70d30-6f16-11f0-8a7b-1eb11825a2b4.svg" alt="Censys">
       <span>Censys</span>
     </a>
   </div>

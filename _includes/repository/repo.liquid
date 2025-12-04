@@ -33,6 +33,7 @@
 
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.repository }}">
+    {% comment %} Original github-readme-stats (currently 503)
     <img
       class="only-light w-100"
       alt="{{ include.repository }}"
@@ -42,6 +43,14 @@
       class="only-dark w-100"
       alt="{{ include.repository }}"
       src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+    >
+    {% endcomment %}
+    {% comment %} Using gh-card.dev - reliable alternative with Redis caching {% endcomment %}
+    <img
+      class="w-100"
+      alt="{{ include.repository }}"
+      src="https://gh-card.dev/repos/{{ include.repository }}.svg?fullname="
+      style="max-width: 500px;"
     >
   </a>
   {% if include.project_name or include.release_date or include.key_tools %}
