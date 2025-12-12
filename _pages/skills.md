@@ -215,6 +215,12 @@ nav_order: 5
       <span>LangGraph</span>
     </a>
   </div>
+  <div class="skill-item">
+    <a href="https://python-client.qdrant.tech" target="_blank">
+      <img src="https://images.seeklogo.com/logo-png/49/1/qdrant-icon-logo-png_seeklogo-497960.png" alt="Qdrant">
+      <span>Qdrant</span>
+    </a>
+  </div>
 </div>
 
 ## Computer Vision
@@ -331,6 +337,18 @@ nav_order: 5
     <a href="https://docs.pydantic.dev/" target="_blank">
       <img src="https://docs.pydantic.dev/latest/logo-white.svg" alt="Pydantic">
       <span>Pydantic</span>
+    </a>
+  </div>
+  <div class="skill-item">
+    <a href="https://prometheus.io/docs/introduction/overview/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" alt="Prometheus">
+      <span>Prometheus</span>
+    </a>
+  </div>
+  <div class="skill-item">
+    <a href="https://grafana.com/docs/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Grafana_icon.svg/960px-Grafana_icon.svg.png" alt="Grafana">
+      <span>Grafana</span>
     </a>
   </div>
 </div>
