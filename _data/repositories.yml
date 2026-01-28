@@ -4,6 +4,12 @@ github_users:
 repo_description_lines_max: 1
 
 github_repos:
+  #2026
+  - repo: rafaelcoelho1409/COELHORealTime
+    year: 2026
+    project_name: COELHO RealTime
+    release_date: January 2026
+    key_tools: "Python | FastAPI | SvelteKit | River | CatBoost | Scikit-Learn | MLflow | Apache Kafka | Apache Spark | Delta Lake | DuckDB | Redis | PostgreSQL | MinIO | Docker | Kubernetes | Helm | Terraform | ArgoCD | GitLab CI | Prometheus | Grafana"
   #2025
   - repo: rafaelcoelho1409/K3D
     year: 2025

@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 nav_order: 1
-subtitle: <b>Machine Learning Engineer | Data Scientist | BSc Mathematics</b><hr>
+subtitle: <b>Senior MLOps / ML Engineer | Data Scientist | BSc Mathematics</b><hr>
 
 profile:
   align: right
@@ -25,20 +25,18 @@ social: true # includes social icons at the bottom of the page
 #  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #  limit: 3 # leave blank to include all the blog posts
 
-latest_articles:
+latest:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 articles
-  limit: 5 # leave blank to include all articles
-
-latest_projects:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 projects
-  limit: 5 # leave blank to include all projects
+  scrollable: true
+  limit: 10
 ---
 
-• Bachelor’s degree in Mathematics at Federal University of Paraná (UFPR) - Brazil.  
-• Data Scientist and Machine Learning Engineer with over 5 years of experience in the industry.  
-• Highly proficient in Data Science, Machine Learning, Computer Vision and Cybersecurity.  
-• Developing and deploying machine learning models to solve real-world problems, such as predictive models, automation tasks and other models to be applied in industry areas, such as Logistics, Financial Market, Real Estate etc.
+<p>• Bachelor's degree in Mathematics at Federal University of Paraná (UFPR) - Brazil.</p>
+<p>• Senior ML/MLOps Engineer with 6+ years of experience designing and deploying production-grade machine learning systems.</p>
+<p>• Built a full Real-Time MLOps platform on Kubernetes — incremental and batch ML pipelines with Kafka, Spark, Delta Lake, MLflow, and a complete CI/CD/GitOps stack (Terraform, Helm, ArgoCD, GitLab CI) — monitored by 50+ Prometheus metrics and 11 Grafana dashboards.</p>
+<p>• Experienced in Generative AI and Agentic AI — built multi-agent systems with LangChain, LangGraph, and Knowledge Graphs (GraphRAG/Neo4J) for autonomous reasoning, information retrieval, and LLM-powered applications.</p>
+<p>• Proficient in end-to-end ML lifecycle: data engineering, model training and serving, infrastructure as code, container orchestration, and observability at scale.</p>
+<p>• Domain experience across Logistics, Financial Markets, Real Estate, Computer Vision, and Cybersecurity.</p>
 
 <b>Location:</b> Curitiba, Paraná, Brazil
+<br><br>

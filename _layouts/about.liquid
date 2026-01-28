@@ -56,20 +56,10 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Latest articles -->
-    {% if page.latest_articles and page.latest_articles.enabled %}
-      <h2>
-        <a href="{{ '/articles/' | relative_url }}" style="color: inherit">latest articles</a>
-      </h2>
-      {% include latest_articles.liquid %}
-    {% endif %}
-
-    <!-- Latest projects -->
-    {% if page.latest_projects and page.latest_projects.enabled %}
-      <h2>
-        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">latest projects</a>
-      </h2>
-      {% include latest_projects.liquid %}
+    <!-- Latest feed (articles + projects) -->
+    {% if page.latest and page.latest.enabled %}
+      <h2>latest</h2>
+      {% include latest_feed.liquid %}
     {% endif %}
 
     <!-- Selected papers -->

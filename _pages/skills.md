@@ -81,12 +81,6 @@ nav_order: 5
       <span>Bash</span>
     </a>
   </div>
-  <div class="skill-item">
-    <a href="https://go.dev/doc/" target="_blank">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/go/go-original-wordmark.svg" alt="Go">
-      <span>Go</span>
-    </a>
-  </div>
 </div>
 
 ## Data Science & Analytics
@@ -105,9 +99,9 @@ nav_order: 5
     </a>
   </div>
   <div class="skill-item">
-    <a href="https://pola-rs.github.io/polars/" target="_blank">
-      <img src="https://raw.githubusercontent.com/pola-rs/polars-static/master/logos/polars-logo-dark.svg" alt="Polars">
-      <span>Polars</span>
+    <a href="https://duckdb.org/docs/stable/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/DuckDB_logo.svg" alt="DuckDB">
+      <span>DuckDB</span>
     </a>
   </div>
   <div class="skill-item">
@@ -128,9 +122,21 @@ nav_order: 5
     </a>
   </div>
   <div class="skill-item">
+    <a href="https://riverml.xyz/" target="_blank">
+      <img src="https://avatars.githubusercontent.com/u/47002673?v=4" alt="River">
+      <span>River</span>
+    </a>
+  </div>
+  <div class="skill-item">
     <a href="https://xgboost.readthedocs.io/" target="_blank">
       <img src="https://raw.githubusercontent.com/dmlc/dmlc.github.io/master/img/logo-m/xgboost.png" alt="XGBoost">
       <span>XGBoost</span>
+    </a>
+  </div>
+  <div class="skill-item">
+    <a href="https://catboost.ai/docs/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/CatBoostLogo.png" alt="CatBoost">
+      <span>CatBoost</span>
     </a>
   </div>
   <div class="skill-item">
@@ -377,12 +383,6 @@ nav_order: 5
     <a href="https://docs.streamlit.io/" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" alt="Streamlit">
       <span>Streamlit</span>
-    </a>
-  </div>
-  <div class="skill-item">
-    <a href="https://dash.plotly.com/" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" alt="Plotly Dash">
-      <span>Plotly Dash</span>
     </a>
   </div>
   <div class="skill-item">
