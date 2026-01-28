@@ -17,7 +17,9 @@
         {% if project.keywords %}
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px;">
             {% for keyword in project.keywords %}
-              <span style="background-color: var(--global-code-bg-color, #f8f9fa); color: var(--global-text-color-light, #6c757d); padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 500; border: 1px solid var(--global-divider-color, #dee2e6);">{{ keyword }}</span>
+              <span style="background-color: var(--global-code-bg-color, #f8f9fa); color: var(--global-text-color-light, #6c757d); padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 500; border: 1px solid var(--global-divider-color, #dee2e6);">
+                {{- keyword -}}
+              </span>
             {% endfor %}
           </div>
         {% endif %}
