@@ -514,7 +514,6 @@ All dashboards provisioned via ConfigMaps with sidecar auto-discovery:
 - **Karma** UI for alert visualization
 - Pre-configured receivers for Slack, Discord, Email, and PagerDuty
 
-
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   {% for i in (1..page.slides_count) %}
     {% if i < 10 %}
