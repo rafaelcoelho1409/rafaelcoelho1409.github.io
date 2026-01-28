@@ -6,6 +6,11 @@ img: assets/img/coelho_vision_logo.jpg
 #redirect: https://unsplash.com
 date: 2024-04-01
 category: latest
+keywords:
+  - Computer Vision
+  - Deep Learning
+  - OpenCV
+  - Object Detection
 slides_count: 23
 images:
   slider: true

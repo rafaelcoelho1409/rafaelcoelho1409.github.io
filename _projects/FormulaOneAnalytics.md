@@ -5,6 +5,11 @@ description: November 2023
 img: assets/img/f1_home.jpg
 date: 2023-11-01
 category: latest
+keywords:
+  - Data Analytics
+  - Machine Learning
+  - Sports Analytics
+  - Data Visualization
 #giscus_comments: true
 slides_count: 19
 images:

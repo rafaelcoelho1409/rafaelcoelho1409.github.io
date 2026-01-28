@@ -28,7 +28,7 @@ social: true # includes social icons at the bottom of the page
 latest:
   enabled: true
   scrollable: true
-  limit: 10
+  limit: 5
 ---
 
 <p>• Bachelor's degree in Mathematics at Federal University of Paraná (UFPR) - Brazil.</p>

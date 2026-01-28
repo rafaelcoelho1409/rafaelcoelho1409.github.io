@@ -5,6 +5,12 @@ description: March 2025
 img: assets/img/YouTubeContentSearch_logo.png
 date: 2025-03-28
 category: latest
+keywords:
+  - AI Agents
+  - Knowledge Graphs
+  - LangChain
+  - GraphRAG
+  - Neo4j
 slides_count: 20
 images:
   slider: true

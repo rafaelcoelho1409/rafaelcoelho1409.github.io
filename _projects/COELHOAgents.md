@@ -5,6 +5,11 @@ description: February 2025
 img: assets/img/coelho_agents_logo.png
 date: 2025-02-17
 category: latest
+keywords:
+  - AI Agents
+  - LangGraph
+  - Multi-Agent Systems
+  - LLM Apps
 ---
 
 Links: ([GitHub](https://github.com/rafaelcoelho1409/COELHOAgents))

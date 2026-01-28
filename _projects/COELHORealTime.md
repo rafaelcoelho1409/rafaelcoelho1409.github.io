@@ -5,6 +5,12 @@ description: January 2026
 img: assets/img/coelho_realtime_logo.jpg
 date: 2026-01-27
 category: latest
+keywords:
+  - Real-Time MLOps
+  - Kubernetes
+  - Kafka
+  - Spark
+  - ML Pipelines
 slides_count: 53
 images:
   slider: true

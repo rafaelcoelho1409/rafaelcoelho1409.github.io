@@ -5,6 +5,11 @@ description: September 2023
 img: assets/img/coelho_finance_logo.png
 date: 2023-09-01
 category: latest
+keywords:
+  - Financial ML
+  - Data Science
+  - Investment Analytics
+  - Algorithmic Trading
 #related_publications: true
 slides_count: 15
 images:
